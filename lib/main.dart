@@ -1,6 +1,7 @@
 import 'package:businesscard/Screen/Dashboard.dart';
 import 'package:businesscard/Screen/GetVisitingCardDetail.dart';
 import 'package:businesscard/Screen/Login.dart';
+import 'package:businesscard/Screen/Profile.dart';
 import 'package:businesscard/Screen/SignUp.dart';
 import 'package:businesscard/Screen/Splash.dart';
 import 'package:flutter/material.dart';
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         '/SignUp': (context) => SignUp(),
         '/Dashboard': (context) => Dashboard(),
         '/GetVisitingCardDetail': (context) => GetVisitingCardDetail(),
+        '/Profile': (context) => Profile(),
       },
       theme: ThemeData(
         textTheme: GoogleFonts.latoTextTheme(textTheme).copyWith(

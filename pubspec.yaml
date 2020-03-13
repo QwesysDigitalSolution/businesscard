@@ -27,6 +27,7 @@ dependencies:
   dio: ^3.0.7
   shared_preferences: ^0.5.6+1
   flip_card: ^0.4.4
+  flutter_flip_view: ^1.0.3
 
 dev_dependencies:
   flutter_test:
@@ -54,6 +55,9 @@ flutter:
     - images/internet.png
     - images/cardfront.png
     - images/cardback.png
+    - images/aadharcardfront.png
+    - images/aadhaarcardback.png
+    - images/drivinglicence.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

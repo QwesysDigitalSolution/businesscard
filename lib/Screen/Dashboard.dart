@@ -86,7 +86,6 @@ class _DashboardState extends State<Dashboard> {
         child: SingleChildScrollView(
           child: Column(
             children: <Widget>[
-
               Padding(padding: EdgeInsets.only(top: 10)),
               RepaintBoundary(
                 key: _globalKeyCard1,
@@ -829,7 +828,6 @@ class _DashboardState extends State<Dashboard> {
                   ),
                 ),
               ),
-
             ],
           ),
         ),
