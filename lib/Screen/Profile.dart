@@ -126,6 +126,7 @@ class _ProfileState extends State<Profile> {
                             Text("84 Mansukhlal Tower, Opp. Dhiraj sunes",style: TextStyle(fontSize: 14,),),
                             Text("Surat, Gujarat - 394221",style: TextStyle(fontSize: 14,),),
                             MaterialButton(
+                              onPressed: (){},
                               shape: RoundedRectangleBorder(
                                 side: BorderSide(
                                     width: 0.50,
