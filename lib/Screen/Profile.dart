@@ -104,15 +104,15 @@ class _ProfileState extends State<Profile> {
                 child: Column(
                   children: <Widget>[
                     Card(
-                      elevation: 2,
+                      elevation: 3,
                       margin: EdgeInsets.only(left: 10, right: 10, top: 10),
                       shape: RoundedRectangleBorder(
                         //side: BorderSide(color: cnst.appcolor)),
                         side: BorderSide(
-                            width: 0.50,
-                            color: cnst.app_primary_material_color),
+                            width: 0.05,
+                            color: Colors.grey,),
                         borderRadius: BorderRadius.circular(
-                          0.0,
+                          10,
                         ),
                       ),
                       child: Container(
@@ -121,23 +121,58 @@ class _ProfileState extends State<Profile> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
-                            Text("Residence Address",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w600,),),
+                            Text("Surat Head Office",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w600,),),
                             SizedBox(height: 10,),
-                            Text("84 Mansukhlal Tower, Opp. Dhiraj sunes",style: TextStyle(fontSize: 14,),),
+                            Text("84 Mansukhlal Tower, Opp. Dhiraj Sons",style: TextStyle(fontSize: 14,),),
                             Text("Surat, Gujarat - 394221",style: TextStyle(fontSize: 14,),),
-                            MaterialButton(
-                              onPressed: (){},
-                              shape: RoundedRectangleBorder(
-                                side: BorderSide(
-                                    width: 0.50,
-                                    color: cnst.app_primary_material_color,
+                            SizedBox(height: 10,),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              crossAxisAlignment: CrossAxisAlignment.end,
+                              children: <Widget>[
+                                Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: <Widget>[
+                                    Row(
+                                      children: <Widget>[
+                                        Icon(Icons.person),
+                                        SizedBox(width: 5,),
+                                        Text("Contact Person",style: TextStyle(fontSize: 14,),),
+                                      ],
+                                    ),
+                                    SizedBox(height: 5,),
+                                    Row(
+                                      children: <Widget>[
+                                        Icon(Icons.phone_iphone),
+                                        SizedBox(width: 5,),
+                                        Text("9595959596",style: TextStyle(fontSize: 14,),),
+                                      ],
+                                    ),
+                                    SizedBox(height: 5,),
+                                    Row(
+                                      children: <Widget>[
+                                        Icon(Icons.phone),
+                                        SizedBox(width: 5,),
+                                        Text("0261 8545856",style: TextStyle(fontSize: 14,),),
+                                      ],
+                                    ),
+                                  ],
                                 ),
-                                borderRadius: BorderRadius.circular(
-                                  30,
+                                MaterialButton(
+                                  onPressed: (){},
+                                  shape: RoundedRectangleBorder(
+                                    side: BorderSide(
+                                      width: 0.50,
+                                      color: cnst.app_primary_material_color,
+                                    ),
+                                    borderRadius: BorderRadius.circular(
+                                      30,
+                                    ),
+                                  ),
+                                  child: Text("Get Dirction",style: TextStyle(color: cnst.app_primary_material_color),),
                                 ),
-                              ),
-                              child: Text("Get Dirction",style: TextStyle(color: cnst.app_primary_material_color),),
-                            )
+                              ],
+                            ),
                           ],
                         ),
                       ),
@@ -146,12 +181,11 @@ class _ProfileState extends State<Profile> {
                         elevation: 2,
                         margin: EdgeInsets.only(left: 10, right: 10, top: 10),
                         shape: RoundedRectangleBorder(
-                          //side: BorderSide(color: cnst.appcolor)),
                           side: BorderSide(
-                              width: 0.50,
-                              color: cnst.app_primary_material_color),
+                            width: 0.05,
+                            color: Colors.grey,),
                           borderRadius: BorderRadius.circular(
-                            0.0,
+                            10,
                           ),
                         ),
                         child: Container(
@@ -160,13 +194,38 @@ class _ProfileState extends State<Profile> {
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
-                                Text("Permanent Address",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w600,),),
+                                Text("Residence Address",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w600,),),
                                 SizedBox(height: 10,),
-                                Text("84 Mansukhlal Tower, Opp. Dhiraj sunes",style: TextStyle(fontSize: 14,),),
+                                Text("84 Mansukhlal Tower, Opp. Dhiraj Sons",style: TextStyle(fontSize: 14,),),
                                 Text("Surat, Gujarat - 394221",style: TextStyle(fontSize: 14,),),
                               ],
                             ),
                         ),
+                    ),
+                    Card(
+                      elevation: 2,
+                      margin: EdgeInsets.only(left: 10, right: 10, top: 10),
+                      shape: RoundedRectangleBorder(
+                        side: BorderSide(
+                          width: 0.05,
+                          color: Colors.grey,),
+                        borderRadius: BorderRadius.circular(
+                          10,
+                        ),
+                      ),
+                      child: Container(
+                        width: MediaQuery.of(context).size.width,
+                        padding: EdgeInsets.all(10),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: <Widget>[
+                            Text("Permanent Address",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w600,),),
+                            SizedBox(height: 10,),
+                            Text("84 Mansukhlal Tower, Opp. Dhiraj Sons",style: TextStyle(fontSize: 14,),),
+                            Text("Surat, Gujarat - 394221",style: TextStyle(fontSize: 14,),),
+                          ],
+                        ),
+                      ),
                     ),
                   ],
                 ),
@@ -180,16 +239,16 @@ class _ProfileState extends State<Profile> {
                     Card(
                       margin: EdgeInsets.only(left: 10, right: 10, top: 10),
                       shape: RoundedRectangleBorder(
-                        //side: BorderSide(color: cnst.appcolor)),
                         side: BorderSide(
-                            width: 0.50,
-                            color: cnst.app_primary_material_color),
+                          width: 0.05,
+                          color: Colors.grey,),
                         borderRadius: BorderRadius.circular(
-                          0.0,
+                          10,
                         ),
                       ),
                       child: Container(
                         width: MediaQuery.of(context).size.width,
+                        padding: EdgeInsets.only(top: 10),
                         child: Column(
                           children: <Widget>[
                             Image.asset("images/aadharcardfront.png",width: MediaQuery.of(context).size.width - 40,),
@@ -199,8 +258,9 @@ class _ProfileState extends State<Profile> {
                               height: 48,
                               decoration: BoxDecoration(
                                 color: cnst.app_primary_material_color,
-                                borderRadius: BorderRadius.all(
-                                  Radius.circular(0),
+                                borderRadius: BorderRadius.only(
+                                  bottomLeft: Radius.circular(10),
+                                  bottomRight: Radius.circular(10),
                                 ),
                               ),
                               child: Center(
@@ -210,6 +270,7 @@ class _ProfileState extends State<Profile> {
                                     color: Colors.white,
                                     fontSize: 17.0,
                                     fontWeight: FontWeight.w600,
+                                    letterSpacing: 1,
                                   ),
                                 ),
                               ),
@@ -222,15 +283,15 @@ class _ProfileState extends State<Profile> {
                       margin:
                       EdgeInsets.only(left: 10, right: 10, top: 10),
                       shape: RoundedRectangleBorder(
-                        //side: BorderSide(color: cnst.appcolor)),
                         side: BorderSide(
-                            width: 0.50,
-                            color: cnst.app_primary_material_color),
+                          width: 0.05,
+                          color: Colors.grey,),
                         borderRadius: BorderRadius.circular(
-                          0.0,
+                          10,
                         ),
                       ),
                       child: Container(
+                        padding: EdgeInsets.only(top: 10),
                         width: MediaQuery.of(context).size.width,
                         child: Column(
                           children: <Widget>[
@@ -241,8 +302,9 @@ class _ProfileState extends State<Profile> {
                               height: 48,
                               decoration: BoxDecoration(
                                 color: cnst.app_primary_material_color,
-                                borderRadius: BorderRadius.all(
-                                  Radius.circular(0),
+                                borderRadius: BorderRadius.only(
+                                  bottomLeft: Radius.circular(10),
+                                  bottomRight: Radius.circular(10),
                                 ),
                               ),
                               child: Center(
@@ -252,6 +314,7 @@ class _ProfileState extends State<Profile> {
                                     color: Colors.white,
                                     fontSize: 17.0,
                                     fontWeight: FontWeight.w600,
+                                    letterSpacing: 1,
                                   ),
                                 ),
                               ),
@@ -264,16 +327,16 @@ class _ProfileState extends State<Profile> {
                       margin:
                       EdgeInsets.only(left: 10, right: 10, top: 10),
                       shape: RoundedRectangleBorder(
-                        //side: BorderSide(color: cnst.appcolor)),
                         side: BorderSide(
-                            width: 0.50,
-                            color: cnst.app_primary_material_color),
+                          width: 0.05,
+                          color: Colors.grey,),
                         borderRadius: BorderRadius.circular(
-                          0.0,
+                          10,
                         ),
                       ),
                       child: Container(
                         width: MediaQuery.of(context).size.width,
+                        padding: EdgeInsets.only(top: 10),
                         child: Column(
                           children: <Widget>[
                             Image.asset("images/drivinglicence.png",width: MediaQuery.of(context).size.width - 40,),
@@ -283,8 +346,9 @@ class _ProfileState extends State<Profile> {
                               height: 48,
                               decoration: BoxDecoration(
                                 color: cnst.app_primary_material_color,
-                                borderRadius: BorderRadius.all(
-                                  Radius.circular(0),
+                                borderRadius: BorderRadius.only(
+                                  bottomLeft: Radius.circular(10),
+                                  bottomRight: Radius.circular(10),
                                 ),
                               ),
                               child: Center(
@@ -294,6 +358,7 @@ class _ProfileState extends State<Profile> {
                                     color: Colors.white,
                                     fontSize: 17.0,
                                     fontWeight: FontWeight.w600,
+                                    letterSpacing: 1,
                                   ),
                                 ),
                               ),
