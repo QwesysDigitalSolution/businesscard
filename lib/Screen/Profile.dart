@@ -95,6 +95,118 @@ class _ProfileState extends State<Profile> {
                         )
                       ],
                     ),
+                    SizedBox(height: 5,),
+                    Row(
+                      children: <Widget>[
+                        Icon(Icons.person,size: 24,color: cnst.app_primary_material_color,),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: <Widget>[
+                            Text("Mother Name",style: TextStyle(color: Colors.grey,fontSize: 12,fontWeight: FontWeight.normal,letterSpacing: 1,),),
+                            Text("Usha R Singh"),
+                          ],
+                        )
+                      ],
+                    ),
+                    SizedBox(height: 5,),
+                    Row(
+                      children: <Widget>[
+                        Icon(Icons.person,size: 24,color: cnst.app_primary_material_color,),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: <Widget>[
+                            Text("Father Name",style: TextStyle(color: Colors.grey,fontSize: 12,fontWeight: FontWeight.normal,letterSpacing: 1,),),
+                            Text("Ramkhiladi T Singh"),
+                          ],
+                        )
+                      ],
+                    ),
+                    SizedBox(height: 5,),
+                    Row(
+                      children: <Widget>[
+                        Icon(Icons.credit_card,size: 24,color: cnst.app_primary_material_color,),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: <Widget>[
+                            Text("Blood Group",style: TextStyle(color: Colors.grey,fontSize: 12,fontWeight: FontWeight.normal,letterSpacing: 1,),),
+                            Text("O+"),
+                          ],
+                        )
+                      ],
+                    ),
+                    SizedBox(height: 5,),
+                    Row(
+                      children: <Widget>[
+                        Icon(Icons.credit_card,size: 24,color: cnst.app_primary_material_color,),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: <Widget>[
+                            Text("Date Of Birth",style: TextStyle(color: Colors.grey,fontSize: 12,fontWeight: FontWeight.normal,letterSpacing: 1,),),
+                            Text("08 / 08 / 1993"),
+                          ],
+                        )
+                      ],
+                    ),
+                    SizedBox(height: 5,),
+                    Row(
+                      children: <Widget>[
+                        Icon(Icons.credit_card,size: 24,color: cnst.app_primary_material_color,),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: <Widget>[
+                            Text("Gender",style: TextStyle(color: Colors.grey,fontSize: 12,fontWeight: FontWeight.normal,letterSpacing: 1,),),
+                            Text("Male"),
+                          ],
+                        )
+                      ],
+                    ),
+                    SizedBox(height: 5,),
+                    Row(
+                      children: <Widget>[
+                        Icon(Icons.credit_card,size: 24,color: cnst.app_primary_material_color,),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: <Widget>[
+                            Text("Marital Status",style: TextStyle(color: Colors.grey,fontSize: 12,fontWeight: FontWeight.normal,letterSpacing: 1,),),
+                            Text("Single"),
+                          ],
+                        )
+                      ],
+                    ),
+                    SizedBox(height: 5,),
+                    Row(
+                      children: <Widget>[
+                        Icon(Icons.credit_card,size: 24,color: cnst.app_primary_material_color,),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: <Widget>[
+                            Text("Marriage Date",style: TextStyle(color: Colors.grey,fontSize: 12,fontWeight: FontWeight.normal,letterSpacing: 1,),),
+                            Text("GJ05 20160028139"),
+                          ],
+                        )
+                      ],
+                    ),
                   ],
                 ),
               ),
